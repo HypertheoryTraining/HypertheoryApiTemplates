@@ -1,11 +1,11 @@
-using Api.Configuration;
+using HtTemplate.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.AddApiFeatureManagement();
+builder.AddCustomFeatureManagement();
 
-builder.Services.AddApiServices();
-builder.Services.AddApiOasGeneration();
+builder.Services.AddCustomServices();
+builder.Services.AddCustomOasGeneration();
 
 builder.Services.AddControllers();
 

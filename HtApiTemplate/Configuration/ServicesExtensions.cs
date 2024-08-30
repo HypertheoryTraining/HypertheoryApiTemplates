@@ -3,18 +3,18 @@ using MicroElements.Swashbuckle.FluentValidation.AspNetCore;
 using Microsoft.FeatureManagement;
 using Microsoft.OpenApi.Models;
 
-namespace Api.Configuration;
+namespace HtTemplate.Configuration;
 
 public static class ServicesExtensions
 {
-    public static WebApplicationBuilder AddApiFeatureManagement(this WebApplicationBuilder builder)
+    public static WebApplicationBuilder AddCustomFeatureManagement(this WebApplicationBuilder builder)
     {
         builder.Services.Configure<ApiFeatureManagementOptions>(
             builder.Configuration.GetSection(ApiFeatureManagementOptions.FeatureManagement));
         builder.Services.AddFeatureManagement();
         return builder;
     }
-    public static IServiceCollection AddApiServices(this IServiceCollection services)
+    public static IServiceCollection AddCustomServices(this IServiceCollection services)
     {
         services.Configure<JsonOptions>(DefaultJsonOptions.Configure);
         services.AddAuthentication().AddJwtBearer();
@@ -25,7 +25,7 @@ public static class ServicesExtensions
         return services;
     }
 
-    public static IServiceCollection AddApiOasGeneration(this IServiceCollection services)
+    public static IServiceCollection AddCustomOasGeneration(this IServiceCollection services)
     {
 
         services.AddEndpointsApiExplorer();

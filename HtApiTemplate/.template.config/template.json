@@ -9,7 +9,7 @@
   "name": "Hypertheory Training Api Template",
   "shortName": "hypertheoryapi",
   "preferNameDirectory": true,
-  "sourceName": "Api",
+  "sourceName": "HtApiTemplate",
   "tags": {
     "language": "C#",
     "type": "project"

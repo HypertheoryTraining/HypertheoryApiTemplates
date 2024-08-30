@@ -2,7 +2,7 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Api.Configuration;
+namespace HtTemplate.Configuration;
 
 public static class DefaultJsonOptions
 {

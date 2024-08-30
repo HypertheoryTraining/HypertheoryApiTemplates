@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{3FE00B08-E44A-4F59-8704-9EBC9505F897}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtTemplate", "HtApiTemplate\HtTemplate.csproj", "{AC3CD91D-1FE4-41DF-8E22-EA511C99D20D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3FE00B08-E44A-4F59-8704-9EBC9505F897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3FE00B08-E44A-4F59-8704-9EBC9505F897}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3FE00B08-E44A-4F59-8704-9EBC9505F897}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3FE00B08-E44A-4F59-8704-9EBC9505F897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3CD91D-1FE4-41DF-8E22-EA511C99D20D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3CD91D-1FE4-41DF-8E22-EA511C99D20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3CD91D-1FE4-41DF-8E22-EA511C99D20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3CD91D-1FE4-41DF-8E22-EA511C99D20D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
