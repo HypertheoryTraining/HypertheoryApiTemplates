@@ -22,8 +22,5 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-if (await app.IsApiFeatureEnabledAsync(ApiFeatureManagementOptions.TacosFeature))
-{
-    app.MapGet("/tacos", () => "Tacos are enabled!");
-}
+
 app.Run();
